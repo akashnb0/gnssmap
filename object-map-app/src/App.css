@@ -1,0 +1,66 @@
+/* src/App.css */
+
+/* Center align everything */
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Add a background color */
+  margin: 0;
+}
+
+/* Style for the App component */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px; /* Increase spacing below h1 */
+}
+
+/* Style for the LocalizationComponent */
+h2 {
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Slightly larger button */
+  cursor: pointer;
+  font-weight: bold; /* Add some emphasis */
+}
+
+/* Style for the MapComponent */
+/* Use the same flex properties to center the map */
+.leaflet-container {
+  flex: 1;
+  width: 80%; /* Adjust the width */
+  max-width: 800px; /* Limit the max width for larger screens */
+  height: 600px; /* Increase the height */
+  border: 2px solid #007acc; /* Add a border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  margin-top: 20px; /* Separate the map from the button */
+}
+
+/* CustomMarker.css */
+
+.custom-marker {
+  background-color: #007acc; /* Use the same color as the button */
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 16px; /* Adjust font size */
+}
+
+/* Adjust marker styles if needed */
